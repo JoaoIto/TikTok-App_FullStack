@@ -5,6 +5,7 @@ module.exports = {
     width: {
       "2/5": "40%",
       "4/5": "80%",
+      "full": "100%"
     },
 
     screens: {
