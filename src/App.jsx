@@ -1,5 +1,5 @@
 import React from "react";
-import { Video } from "./components/Video";
+import { VideoList } from "./components/Video/VideosList";
 
 export function App() {
   return (
@@ -37,7 +37,7 @@ export function App() {
         >
           TikTok
         </h1>
-        <Video />
+        <VideoList />
       </div>
     </div>
   );
