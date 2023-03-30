@@ -17,10 +17,12 @@ export function App() {
       <div
         id="video"
         className="
+          overflow-scroll
           text-white
           flex
           flex-col
           items-center 
+          justify-around
           min-h-tiktok
           w-2/5 
           sm: w-5/6
