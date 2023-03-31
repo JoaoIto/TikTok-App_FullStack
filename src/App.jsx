@@ -13,7 +13,7 @@ export function App() {
         items-center 
         content-center 
         justify-center
-        relative  /* Adicionado para posicionar o vídeo em tela cheia */
+        relative 
       "
     >
       <div
@@ -30,7 +30,7 @@ export function App() {
           border-solid 
           border-2 
           border-black
-          absolute /* Adicionado para tornar o elemento em tela cheia */
+          absolute 
         "
       >
         <h1
