@@ -9,7 +9,10 @@ export function VideoList() {
         justify-center 
         h-full 
         w-full 
-        overflow-y-scroll" /* adicionado para permitir rolagem */
+        overflow-y-scroll
+        scroll-snap-type: y mandatory;
+        scrollbar-width: none;"
+      style={{ scrollSnapAlign: "start" }}
     >
       <Video />
       <Video />

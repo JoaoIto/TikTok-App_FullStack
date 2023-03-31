@@ -9,7 +9,9 @@ export function Video() {
         flex
         flex-col
         items-center
-      ">
+      "
+      style={{ scrollSnapAlign: "start" }}
+    >
       <h2>I'm a Video!</h2>
       <video src=""></video>
     </div>
