@@ -4,8 +4,11 @@ import { Title } from "./components/Title/Title"
 
 export function App() {
   return (
-    <div
-      className="
+    <>
+      <Title />
+
+      <div
+        className="
         w-screen 
         h-screen 
         bg-tiktok
@@ -16,10 +19,10 @@ export function App() {
         justify-center
         relative 
       "
-    >
-      <div
-        id="video"
-        className="
+      >
+        <div
+          id="video"
+          className="
           text-white
           flex
           flex-col
@@ -34,10 +37,10 @@ export function App() {
           border-black
           absolute 
         "
-      >
-        <Title />
-        <VideoList />
+        >
+          <VideoList />
+        </div>
       </div>
-    </div>
+    </>
   );
 }

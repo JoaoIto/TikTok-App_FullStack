@@ -12,8 +12,7 @@ export function Video() {
       "
       style={{ scrollSnapAlign: "start" }}
     >
-      <h2>I'm a Video!</h2>
-      <video src=""></video>
+      <video src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/bird.mp4"></video>
     </div>
   );
 }
