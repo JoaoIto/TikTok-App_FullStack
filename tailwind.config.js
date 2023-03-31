@@ -2,11 +2,6 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    width: {
-      "2/5": "40%",
-      "4/5": "80%",
-      full: "100%",
-    },
     screens: {
       cellphone: "580px",
       // => @media (min-width: 580px) { ... }
@@ -19,6 +14,11 @@ module.exports = {
 
       desktop: "1280px",
       // => @media (min-width: 1280px) { ... }
+    },
+
+    width:{
+      "2/5": "40%",
+      "3/5": "60%"
     },
 
     colors: {
@@ -38,8 +38,6 @@ module.exports = {
       pink: "0 4px 6px -1px rgba(254, 44, 85, 0.1), 0 2px 4px -1px rgba(254, 44, 85, 0.06)",
       blue: "0 4px 6px -1px rgba(105, 201, 208, 0.1), 0 2px 4px -1px rgba(105, 201, 208, 0.06)",
     },
-
-    
     extend: {},
   },
   plugins: [],

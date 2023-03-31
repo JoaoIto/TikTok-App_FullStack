@@ -12,7 +12,6 @@ export function VideoList() {
         overflow-y-scroll
         scroll-snap-type: y mandatory;
         scrollbar-width: none;"
-      style={{ scrollSnapAlign: "start" }}
     >
       <Video />
       <Video />

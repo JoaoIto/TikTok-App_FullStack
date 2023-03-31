@@ -24,9 +24,9 @@ export function App() {
           flex
           flex-col
           items-center
-          h-full
-          w-2/5 
-          sm:w-5/6
+          h-3/4
+          lg: w-1/3
+          sm: w-3/4 
           rounded-xl 
           border-solid 
           border-2 
