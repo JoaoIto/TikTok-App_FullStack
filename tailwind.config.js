@@ -5,9 +5,8 @@ module.exports = {
     width: {
       "2/5": "40%",
       "4/5": "80%",
-      "full": "100%"
+      "full": "100%",
     },
-
     screens: {
       cellphone: "580px",
       // => @media (min-width: 580px) { ... }
@@ -22,9 +21,6 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
 
-    minHeight: {
-      tiktok: "90%",
-    },
     colors: {
       tiktok: "#010101",
       ice: "#fafafa",
