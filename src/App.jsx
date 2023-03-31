@@ -1,6 +1,6 @@
 import React from "react";
 import { VideoList } from "./components/Video/VideosList";
-import { Title } from "./components/Title"
+import { Title } from "./components/Title/Title"
 
 export function App() {
   return (
