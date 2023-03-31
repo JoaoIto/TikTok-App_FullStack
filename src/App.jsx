@@ -1,5 +1,6 @@
 import React from "react";
 import { VideoList } from "./components/Video/VideosList";
+import { Title } from "./components/Title"
 
 export function App() {
   return (
@@ -33,14 +34,7 @@ export function App() {
           absolute 
         "
       >
-        <h1
-          className="
-            h-1/10
-            text-5xl 
-            font-bold"
-        >
-          TikTok
-        </h1>
+        <Title />
         <VideoList />
       </div>
     </div>
