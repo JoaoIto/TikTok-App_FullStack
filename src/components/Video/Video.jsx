@@ -1,11 +1,18 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 
 export function Video() {
 
   const videoRef = useRef(null);
+  const {play, setPlay} = useState(false);
 
   function handleStart(){
-    videoRef.current.play();
+    if (play) {
+      videoRef.current.pause();
+      setPlay(false);
+    }else{
+      videoRef.current.play();
+      setPlay(true);
+    }
   }
 
   return (
