@@ -1,6 +1,10 @@
-# Projeto FulStack TikTok _ Parceria com EBAC
+# Projeto FulStack TikTok _ Parceria com EBAC <img height="40" src="./public/tiktok.png">
 
 Este projeto é um projeto de um **clone full stack da aplicação do *Tikok***, com todas as funções são nativas do app original. A jornada está sendo feitas por uma imersão de aulas gratuitas oferecidas pela EBAC!
+
+## Print base:
+
+<img height="800" src="./.github/printBase.png">
 
 ## Techs usadas (préviamente):
 
