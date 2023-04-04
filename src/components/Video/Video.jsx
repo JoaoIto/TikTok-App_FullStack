@@ -23,20 +23,20 @@ export function Video() {
         w-full 
         flex
         flex-col
-        items-center
+        text-left
+        m-2.5
       "
       style={{ scrollSnapAlign: "start" }}
     >
-      <video 
-      src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/bird.mp4"
-      controls
-      loop
-      ref={videoRef}
-      onClick={handleStart}
-      >
-      </video>
+      <video
+        src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/bird.mp4"
+        controls
+        loop
+        ref={videoRef}
+        onClick={handleStart}
+      ></video>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

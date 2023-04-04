@@ -21,6 +21,10 @@ module.exports = {
       "3/5": "60%"
     },
 
+    fontFamily:{
+      Inter: ['Inter', 'sans-serif'],
+    },
+
     colors: {
       tiktok: "#010101",
       ice: "#fafafa",
