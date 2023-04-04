@@ -1,24 +1,4 @@
-.video-list {
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: none;
-    /* Firefox */
-    -ms-overflow-style: none;
-    /* IE 10+ */
-}
-
-/* Prefix with -webkit- for better compatibility */
-.video {
-    scroll-snap-align: start;
-    height: 100vh;
-}
-
 /* Hide scrollbar on all browsers */
-.video-list::-webkit-scrollbar {
-    display: none;
-}
-
-.video-list::-ms-scrollbar {
+#videoList::-webkit-scrollbar {
     display: none;
 }
