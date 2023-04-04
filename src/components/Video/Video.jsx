@@ -1,4 +1,5 @@
 import React, { useRef, useState } from "react";
+import { Footer } from "../Footer/Footer"
 
 export function Video() {
 
@@ -33,8 +34,9 @@ export function Video() {
       ref={videoRef}
       onClick={handleStart}
       >
-
       </video>
+
+      <Footer/>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Video } from './Video';
-import styles from "../../styles/App.css"
+import styles from "../../styles/App.css?inline";
 
 export function VideoList() {
   return (
