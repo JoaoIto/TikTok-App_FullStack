@@ -12,12 +12,13 @@ export function Footer() {
     font-Inter
     "
     >
-      <div 
-      className="
+      <div
+        className="
       mb-28
       ml-8
       "
-      id="texts">
+        id="texts"
+      >
         <legend
           className="
     font-bold
@@ -27,13 +28,29 @@ export function Footer() {
           @JoaoIto - joaoitoxd
         </legend>
         <span> Este é o vídeo do João! Aproveite!</span>
-        <p
-        className="
+        <div
+          id="musicVideo"
+          className="
+        flex
+        justify-evenly
+        items-center
+        text-center
+        gap-12
         mt-8
+        "
+        >
+          <p
+            id="icon"
+            className="
+        
         text-lg
         font-bold
         "
-        >Icone da musica</p>
+          >
+            Icone da musica
+          </p>
+          <p id="title">Titulo da musica</p>
+        </div>
       </div>
     </div>
   );
