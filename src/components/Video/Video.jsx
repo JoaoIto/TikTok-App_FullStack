@@ -30,7 +30,6 @@ export function Video() {
     >
       <video
         src="https://poqlymuephttfsljdabn.supabase.co/storage/v1/object/public/jornadadev/bird.mp4"
-        controls
         loop
         ref={videoRef}
         onClick={handleStart}

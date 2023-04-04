@@ -18,16 +18,22 @@ export function Footer() {
       ml-8
       "
       id="texts">
-        <h3
+        <legend
           className="
     font-bold
     text-xl
       "
         >
           @JoaoIto - joaoitoxd
-        </h3>
-
+        </legend>
         <span> Este é o vídeo do João! Aproveite!</span>
+        <p
+        className="
+        mt-8
+        text-lg
+        font-bold
+        "
+        >Icone da musica</p>
       </div>
     </div>
   );
