@@ -1,4 +1,5 @@
 import React from "react";
+import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
 export function Footer() {
   return (
@@ -32,24 +33,19 @@ export function Footer() {
           id="musicVideo"
           className="
         flex
-        justify-evenly
+        justify-around
         items-center
         text-center
-        gap-12
-        mt-8
+        gap-2
+        mt-10
         "
         >
+          <MusicNoteIcon />
           <p
-            id="icon"
-            className="
-        
-        text-lg
-        font-bold
-        "
+            id="title"
           >
-            Icone da musica
+            Rockstar - Post Malone
           </p>
-          <p id="title">Titulo da musica</p>
         </div>
       </div>
       <img
@@ -61,7 +57,7 @@ export function Footer() {
         invert
         absolute
         right-5
-        bottom-20
+        bottom-24
         "
       />
     </div>
